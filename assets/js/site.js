@@ -3,11 +3,13 @@
 
   const menuButton = document.querySelector("[data-menu-toggle]");
   const navigation = document.querySelector("[data-navigation]");
+  const menuLabel = document.querySelector("[data-menu-label]");
 
   if (menuButton && navigation) {
     const closeMenu = () => {
       menuButton.setAttribute("aria-expanded", "false");
       menuButton.setAttribute("aria-label", "Open navigation");
+      if (menuLabel) menuLabel.textContent = "Menu";
       navigation.classList.remove("is-open");
     };
 
@@ -15,6 +17,7 @@
       const isOpen = menuButton.getAttribute("aria-expanded") === "true";
       menuButton.setAttribute("aria-expanded", String(!isOpen));
       menuButton.setAttribute("aria-label", isOpen ? "Open navigation" : "Close navigation");
+      if (menuLabel) menuLabel.textContent = isOpen ? "Menu" : "Close";
       navigation.classList.toggle("is-open", !isOpen);
     });
     navigation.addEventListener("click", (event) => {
@@ -29,7 +32,7 @@
   }
 
   const search = document.querySelector("[data-project-search]");
-  const filters = Array.from(document.querySelectorAll("[data-filter]"));
+  const categorySelect = document.querySelector("[data-filter-select]");
   const cards = Array.from(document.querySelectorAll("[data-project-card]"));
   const resultCount = document.querySelector("[data-results-count]");
   const noResults = document.querySelector("[data-no-results]");
@@ -53,13 +56,12 @@
     };
 
     search.addEventListener("input", updateResults);
-    filters.forEach((filter) => {
-      filter.addEventListener("click", () => {
-        activeFilter = filter.dataset.filter;
-        filters.forEach((item) => item.setAttribute("aria-pressed", String(item === filter)));
+    if (categorySelect) {
+      categorySelect.addEventListener("change", () => {
+        activeFilter = categorySelect.value;
         updateResults();
       });
-    });
+    }
     updateResults();
   }
 

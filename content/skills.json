@@ -1,0 +1,339 @@
+[
+  {
+    "slug": "electrical-systems",
+    "title": "Electrical systems",
+    "intro": "Circuit work, vehicle wiring and electrical fault finding.",
+    "skills": [
+      {
+        "name": "Vehicle wiring and integration",
+        "detail": "Wired, connected and repaired electrical and control systems on the EV.",
+        "projects": [
+          "ev-grand-prix"
+        ]
+      },
+      {
+        "name": "Circuit construction",
+        "detail": "Built and tested component circuits on breadboards.",
+        "projects": [
+          "circuits-electronics"
+        ]
+      },
+      {
+        "name": "Soldering",
+        "detail": "Used soldering during electronics work and EV electrical repairs.",
+        "projects": [
+          "circuits-electronics",
+          "ev-grand-prix"
+        ]
+      },
+      {
+        "name": "Electrical troubleshooting",
+        "detail": "Checked power, connections and continuity, then retested after changes.",
+        "projects": [
+          "ev-electrical-powertrain",
+          "ev-telemetry"
+        ]
+      },
+      {
+        "name": "Battery and motor research",
+        "detail": "Researched components and trade-offs for an electric endurance car.",
+        "projects": [
+          "ev-grand-prix"
+        ]
+      },
+      {
+        "name": "Traction-system protection",
+        "detail": "Worked with fuse, kill-switch, contactor and precharge elements in the EV power path.",
+        "projects": [
+          "ev-electrical-powertrain"
+        ]
+      },
+      {
+        "name": "Control-circuit repair",
+        "detail": "Diagnosed the throttle connector and dashboard controls, then verified their operation after repair.",
+        "projects": [
+          "ev-electrical-powertrain"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "telemetry-measurement",
+    "title": "Telemetry and measurement",
+    "intro": "My deepest individual technical work on the electric vehicle.",
+    "skills": [
+      {
+        "name": "Telemetry integration",
+        "detail": "Connected the measurement system to the vehicle's electrical system.",
+        "projects": [
+          "ev-telemetry"
+        ]
+      },
+      {
+        "name": "Measurement channel testing",
+        "detail": "Tested voltage, current, speed and position channels separately.",
+        "projects": [
+          "ev-telemetry"
+        ]
+      },
+      {
+        "name": "Sensor power and grounding",
+        "detail": "Checked sensor supply, ground paths and wiring continuity during integration.",
+        "projects": [
+          "ev-telemetry"
+        ]
+      },
+      {
+        "name": "Signal interference troubleshooting",
+        "detail": "Shielded and reorganized signal wiring, then retested the readings.",
+        "projects": [
+          "ev-telemetry"
+        ]
+      },
+      {
+        "name": "GPS-based measurement planning",
+        "detail": "Used GPS speed and position in the telemetry measurement plan.",
+        "projects": [
+          "ev-telemetry"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "robotics",
+    "title": "Robotics",
+    "intro": "Competition robot design, programming, testing and mentoring.",
+    "skills": [
+      {
+        "name": "Robot design and assembly",
+        "detail": "Helped design and build a VEX competition robot with a seven-member team.",
+        "projects": [
+          "vex-robotics"
+        ]
+      },
+      {
+        "name": "Robot programming",
+        "detail": "Contributed to programming and helped younger students understand code.",
+        "projects": [
+          "vex-robotics",
+          "robotics-mentoring"
+        ]
+      },
+      {
+        "name": "Drivetrain CAD",
+        "detail": "Developed drivetrain CAD for the VEX robot.",
+        "projects": [
+          "vex-robotics"
+        ]
+      },
+      {
+        "name": "Robot testing and match strategy",
+        "detail": "Tested the robot against competition tasks and planned how to use it in matches.",
+        "projects": [
+          "vex-robotics"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "design-fabrication",
+    "title": "Design and fabrication",
+    "intro": "Moving from digital models to physical parts and tested prototypes.",
+    "skills": [
+      {
+        "name": "CAD modelling",
+        "detail": "Worked on the EV body scan and revised shape, as well as robotics and 3D printing models.",
+        "projects": [
+          "ev-grand-prix",
+          "vex-robotics",
+          "3d-printing"
+        ]
+      },
+      {
+        "name": "3D scanning and body modelling",
+        "detail": "Contributed to scanning and modelling work for the EV body.",
+        "projects": [
+          "ev-cad-scanning"
+        ]
+      },
+      {
+        "name": "Print preparation and slicing",
+        "detail": "Prepared CAD models for printing with slicing software.",
+        "projects": [
+          "3d-printing"
+        ]
+      },
+      {
+        "name": "3D printer setup",
+        "detail": "Set up printers and checked printed output.",
+        "projects": [
+          "3d-printing"
+        ]
+      },
+      {
+        "name": "Prototype iteration",
+        "detail": "Adjusted designs and print setup after evaluating physical results.",
+        "projects": [
+          "3d-printing",
+          "vex-robotics"
+        ]
+      },
+      {
+        "name": "3D scanning and mesh review",
+        "detail": "Reviewed the original race car mesh and its edited body-shape revision in multiple views.",
+        "projects": [
+          "ev-cad-scanning"
+        ]
+      },
+      {
+        "name": "Vehicle packaging",
+        "detail": "Considered how chassis space, batteries, controls and driver access interact.",
+        "projects": [
+          "ev-mechanical-testing",
+          "ev-cad-scanning"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "ai-digital",
+    "title": "Applied AI and digital projects",
+    "intro": "AI-focused collaboration, web project work and hackathon problem solving.",
+    "skills": [
+      {
+        "name": "AI-supported race strategy",
+        "detail": "Developed an AI-supported strategy concept for the EVGP project.",
+        "projects": [
+          "ev-grand-prix"
+        ]
+      },
+      {
+        "name": "Applied AI collaboration",
+        "detail": "Worked on an AI-related team project during the MBZUAI bootcamp.",
+        "projects": [
+          "mbzuai-bootcamp"
+        ]
+      },
+      {
+        "name": "Accessible website collaboration",
+        "detail": "Helped build a learning website intended for children with disabilities.",
+        "projects": [
+          "mbzuai-bootcamp"
+        ]
+      },
+      {
+        "name": "Hackathon solution development",
+        "detail": "Researched, developed and presented technology-based ideas with teams.",
+        "projects": [
+          "innovai-te-hackathon",
+          "uae-hackathon"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "engineering-practice",
+    "title": "Engineering practice and industry",
+    "intro": "Testing habits and knowledge gained from technical placements.",
+    "skills": [
+      {
+        "name": "Test and retest",
+        "detail": "Tested subsystems separately and checked performance again after a fix.",
+        "projects": [
+          "ev-electrical-powertrain",
+          "ev-telemetry",
+          "ev-mechanical-testing"
+        ]
+      },
+      {
+        "name": "Technical research",
+        "detail": "Investigated EV components and researched hackathon challenges before designing solutions.",
+        "projects": [
+          "ev-grand-prix",
+          "uae-hackathon"
+        ]
+      },
+      {
+        "name": "Generator maintenance workflow",
+        "detail": "Learned disassembly, inspection, testing and repair workflows during an internship.",
+        "projects": [
+          "qer-internship"
+        ]
+      },
+      {
+        "name": "Industrial safety and quality control",
+        "detail": "Gained exposure to safety procedures, laboratory testing and quality control at ADNOC.",
+        "projects": [
+          "adnoc-placement"
+        ]
+      },
+      {
+        "name": "Research laboratory practice",
+        "detail": "Observed engineering professionals and laboratory work during university job shadowing.",
+        "projects": [
+          "khalifa-job-shadowing"
+        ]
+      },
+      {
+        "name": "CFD interpretation",
+        "detail": "Reviewed an airflow visualization to guide body-design discussion.",
+        "projects": [
+          "ev-mechanical-testing"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "leadership-communication",
+    "title": "Leadership and communication",
+    "intro": "Guiding teams, explaining technical work and organizing group activity.",
+    "skills": [
+      {
+        "name": "Student team leadership",
+        "detail": "Led or co-led robotics, 3D printing and electronics teams.",
+        "projects": [
+          "vex-robotics",
+          "3d-printing",
+          "circuits-electronics"
+        ]
+      },
+      {
+        "name": "Robotics mentoring",
+        "detail": "Explained design and code, helped younger students troubleshoot and prepare for competition.",
+        "projects": [
+          "robotics-mentoring"
+        ]
+      },
+      {
+        "name": "Event organization",
+        "detail": "Coordinated participants, schedules and activities for a student hackathon.",
+        "projects": [
+          "student-hackathon-organizing"
+        ]
+      },
+      {
+        "name": "Technical presentation",
+        "detail": "Helped prepare hackathon presentations and delivered a team pitch at InnovAIte.",
+        "projects": [
+          "innovai-te-hackathon",
+          "uae-hackathon"
+        ]
+      },
+      {
+        "name": "Competition preparation",
+        "detail": "Prepared designs and teams for robotics and engineering competitions.",
+        "projects": [
+          "sos-crash-detection",
+          "robotics-mentoring"
+        ]
+      },
+      {
+        "name": "Live-event teamwork",
+        "detail": "Supported match operations as a selected ball kid volunteer.",
+        "projects": [
+          "tennis-ball-kid"
+        ]
+      }
+    ]
+  }
+]

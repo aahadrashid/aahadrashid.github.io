@@ -1,0 +1,748 @@
+{
+  "ev-grand-prix": {
+    "cover": "ev-working-portrait.jpeg",
+    "coverAlt": "Aahad beside the electric race car during a build session",
+    "groups": [
+      {
+        "title": "Build and competition",
+        "items": [
+          {
+            "file": "ev-race-portrait.png",
+            "alt": "Aahad beside the electric race car on the competition track",
+            "caption": "With the completed car before a competition run."
+          },
+          {
+            "file": "ev-scrutineering.png",
+            "alt": "Aahad checking car 090 at the track",
+            "caption": "A vehicle check at the track."
+          },
+          {
+            "file": "ev-race-grid-wide.jpeg",
+            "alt": "Electric car 090 on track beside other cars",
+            "caption": "Car 090 alongside other electric race cars."
+          },
+          {
+            "file": "ev-working-wiring.jpeg",
+            "alt": "Aahad working beside exposed electrical wiring on the race car",
+            "caption": "Hands-on electrical work during the build."
+          },
+          {
+            "file": "ev-driver-safety.jpeg",
+            "alt": "Aahad helping secure the driver in the car",
+            "caption": "Preparing the driver and vehicle before a run."
+          },
+          {
+            "file": "ev-early-morning.jpeg",
+            "alt": "Aahad sitting in the race car before dawn",
+            "caption": "Early morning race preparation."
+          }
+        ]
+      },
+      {
+        "title": "Recognition",
+        "items": [
+          {
+            "file": "ev-award-ai-strategy.jpeg",
+            "alt": "Second-place EVGP Best Use of AI for Race Strategy award",
+            "caption": "EVGP 2026 · second place, Best Use of AI for Race Strategy."
+          },
+          {
+            "file": "ev-award-promotion.jpeg",
+            "alt": "Third-place EVGP Promotion and Outreach award",
+            "caption": "EVGP 2026 · third place, Promotion and Outreach."
+          },
+          {
+            "file": "ev-award-social.jpeg",
+            "alt": "Third-place EVGP Social Media Outreach award",
+            "caption": "EVGP 2026 · third place, Social Media Outreach."
+          },
+          {
+            "file": "ev-award-best-photo.jpeg",
+            "alt": "First-place EVGP Best Photo award",
+            "caption": "EVGP 2026 · first place, Best Photo."
+          },
+          {
+            "file": "ev-best-photo-winning-image.png",
+            "alt": "Race helmet on grass with the electric vehicle team reflected in its visor",
+            "caption": "The image that won EVGP 2026 Best Photo: our team reflected in the driver's helmet visor."
+          },
+          {
+            "file": "steam-third-place.jpeg",
+            "alt": "Aahad on the third-place podium at the SABIS STEAM competition",
+            "caption": "Third place overall at the 2026 SABIS STEAM competition."
+          },
+          {
+            "file": "ev-steam-certificate.jpeg",
+            "alt": "Certificate for the 2026 SABIS STEAM electric car project",
+            "caption": "SABIS STEAM competition certificate for the electric car."
+          },
+          {
+            "file": "ev-ai-strategy-podium.jpeg",
+            "alt": "Aahad and teammates on the second-place podium for EVGP Best Use of AI for Race Strategy",
+            "caption": "Aahad and teammates on the second-place podium for Best Use of AI for Race Strategy at EVGP 2026."
+          },
+          {
+            "file": "ev-steam-team.jpeg",
+            "alt": "Electric car team together at the SABIS STEAM event",
+            "caption": "The team at the 2026 SABIS STEAM competition."
+          },
+          {
+            "file": "ev-steam-stage.jpeg",
+            "alt": "Electric car category participants on the SABIS STEAM stage",
+            "caption": "Electric car teams on stage at the 2026 SABIS STEAM competition."
+          }
+        ]
+      },
+      {
+        "title": "More from the build and race day",
+        "collapsed": true,
+        "items": [
+          {
+            "file": "ev-driver-briefing.jpeg",
+            "alt": "Aahad speaking with the driver beside the race car",
+            "caption": "Discussing vehicle preparation with the driver."
+          },
+          {
+            "file": "ev-driver-discussion.jpeg",
+            "alt": "Aahad and team beside the car at the race venue",
+            "caption": "A check-in with the driver and team at the track."
+          },
+          {
+            "file": "ev-track-action.jpeg",
+            "alt": "Electric race car driving on the track",
+            "caption": "The completed car on track."
+          },
+          {
+            "file": "ev-driver-ready.png",
+            "alt": "Helmeted driver beside the electric race car",
+            "caption": "Driver and vehicle preparation before a run."
+          },
+          {
+            "file": "ev-driver-entry.png",
+            "alt": "Driver stepping into the electric race car",
+            "caption": "Preparing to enter the car."
+          },
+          {
+            "file": "ev-cockpit-lane.png",
+            "alt": "Driver in the electric race car at the starting area",
+            "caption": "The car at the start area."
+          },
+          {
+            "file": "ev-team-check.png",
+            "alt": "Students checking the electric race car",
+            "caption": "Team checks around the vehicle."
+          },
+          {
+            "file": "ev-team-car-pitlane.png",
+            "alt": "Students and a mentor around the electric car",
+            "caption": "The team preparing the car between runs."
+          },
+          {
+            "file": "ev-pre-race-work.jpeg",
+            "alt": "Team members working around the electric race car indoors",
+            "caption": "Pre-race work around the car."
+          },
+          {
+            "file": "ev-pit-check.jpeg",
+            "alt": "Team checking the electric race car in a workshop",
+            "caption": "A vehicle check before competition use."
+          },
+          {
+            "file": "ev-start-line-prep.jpeg",
+            "alt": "Team members preparing the car on the start line",
+            "caption": "Start-line preparation."
+          },
+          {
+            "file": "ev-track-low-angle.jpeg",
+            "alt": "Low-angle view of the electric race car at the track",
+            "caption": "The car at track level."
+          },
+          {
+            "file": "ev-grid-team.jpeg",
+            "alt": "Team standing around the electric car on the grid",
+            "caption": "The car and team on the grid."
+          },
+          {
+            "file": "ev-team-with-car.jpeg",
+            "alt": "Student team posing with the electric race car",
+            "caption": "The team with the completed vehicle."
+          },
+          {
+            "file": "ev-race-grid-group.jpeg",
+            "alt": "Group of students and mentors at the race venue",
+            "caption": "The wider team at the track."
+          },
+          {
+            "file": "ev-track-side-service.jpeg",
+            "alt": "Team working on the car beside the track",
+            "caption": "Trackside checks during the event."
+          },
+          {
+            "file": "ev-competition-portrait.jpeg",
+            "alt": "Aahad standing at the electric car competition",
+            "caption": "At the competition venue."
+          },
+          {
+            "file": "ev-driver-discussion-track.jpeg",
+            "alt": "Aahad speaking beside the electric car",
+            "caption": "Checking in with the car and team."
+          }
+        ]
+      }
+    ]
+  },
+  "ev-electrical-powertrain": {
+    "cover": "ev-power-schematic.png",
+    "coverAlt": "Diagram of the electric race car power architecture",
+    "groups": [
+      {
+        "title": "System and build",
+        "items": [
+          {
+            "file": "ev-power-schematic.png",
+            "alt": "Diagram showing components and power connections in the EV",
+            "caption": "Vehicle power-architecture diagram."
+          },
+          {
+            "file": "ev-working-wiring.jpeg",
+            "alt": "Aahad working with exposed car wiring",
+            "caption": "Checking wiring on the car."
+          },
+          {
+            "file": "ev-working-teacher.jpeg",
+            "alt": "Aahad and a teacher working on the electric car",
+            "caption": "Electrical and vehicle work during the build."
+          },
+          {
+            "file": "ev-working-portrait.jpeg",
+            "alt": "Aahad beside the car with systems exposed",
+            "caption": "Vehicle work with the electrical area accessible."
+          },
+          {
+            "file": "ev-rear-system-check.png",
+            "alt": "Team working inside the electric race car",
+            "caption": "Team inspection with the vehicle body open."
+          },
+          {
+            "file": "ev-system-inspection.jpeg",
+            "alt": "Student checking exposed systems on the electric car",
+            "caption": "Trackside check of the vehicle's exposed systems."
+          }
+        ]
+      }
+    ]
+  },
+  "ev-telemetry": {
+    "cover": "telemetry-pcb-render.jpg",
+    "coverAlt": "Three-dimensional render of the revised telemetry circuit board",
+    "groups": [
+      {
+        "title": "Designed for 2027",
+        "items": [
+          {
+            "file": "telemetry-pcb-render.jpg",
+            "alt": "Three-dimensional render of the revised telemetry PCB",
+            "caption": "Revised telemetry board design for planned use in 2027."
+          },
+          {
+            "file": "telemetry-schematic.jpg",
+            "alt": "Schematic of the telemetry electronics",
+            "caption": "Circuit schematic from telemetry development."
+          },
+          {
+            "file": "telemetry-enclosure.jpg",
+            "alt": "Telemetry electronics inside a white prototype enclosure",
+            "caption": "Prototype electronics enclosure during development."
+          },
+          {
+            "file": "telemetry-pcb-photo.jpeg",
+            "alt": "Physical green telemetry printed circuit board with component footprints",
+            "caption": "Physical PCB from the revised telemetry design; planned for the 2027 car."
+          }
+        ]
+      },
+      {
+        "title": "Development and integration",
+        "items": [
+          {
+            "file": "ev-telemetry-coding.jpeg",
+            "alt": "Aahad coding with a laptop in the electric race car",
+            "caption": "Working with code and telemetry electronics in the car."
+          },
+          {
+            "file": "telemetry-team-prototype.jpg",
+            "alt": "Students examining electronics on a worktable",
+            "caption": "Team electronics prototyping session."
+          }
+        ]
+      },
+      {
+        "title": "Telemetry bench development",
+        "collapsed": true,
+        "items": [
+          {
+            "file": "telemetry-white-enclosure.jpeg",
+            "alt": "Telemetry electronics mounted inside a white enclosure",
+            "caption": "Enclosure and wiring from EV telemetry development."
+          },
+          {
+            "file": "telemetry-vehicle-wiring.jpeg",
+            "alt": "Telemetry module held beside vehicle wiring",
+            "caption": "Checking a telemetry module near the car's wiring."
+          },
+          {
+            "file": "telemetry-power-connector.jpeg",
+            "alt": "Power connector and cable assembly for telemetry development",
+            "caption": "A connection detail from the telemetry build."
+          },
+          {
+            "file": "telemetry-breadboard-controller.jpeg",
+            "alt": "Microcontroller on a wired telemetry breadboard",
+            "caption": "Bench wiring for the telemetry prototype."
+          },
+          {
+            "file": "telemetry-wiring-prototype.jpeg",
+            "alt": "Sensors and wiring laid out in a white telemetry housing",
+            "caption": "Prototype wiring in the enclosure."
+          },
+          {
+            "file": "telemetry-bench-module.jpeg",
+            "alt": "Small wired module used during telemetry development",
+            "caption": "A module during bench assembly."
+          },
+          {
+            "file": "telemetry-breadboard-test.jpeg",
+            "alt": "Breadboard telemetry circuit with sensor leads",
+            "caption": "A separate breadboard test setup."
+          },
+          {
+            "file": "telemetry-clear-enclosure.jpeg",
+            "alt": "Transparent enclosure containing telemetry electronics",
+            "caption": "A further enclosure and wiring iteration."
+          },
+          {
+            "file": "telemetry-team-bench.jpeg",
+            "alt": "Students working together at an electronics bench",
+            "caption": "Team work during telemetry prototyping."
+          },
+          {
+            "file": "telemetry-test-table.jpeg",
+            "alt": "Electronics and tools laid out on a worktable",
+            "caption": "Bench equipment used during development."
+          }
+        ]
+      }
+    ]
+  },
+  "ev-cad-scanning": {
+    "cover": "ev-mesh-three-quarter.png",
+    "coverAlt": "Three-dimensional scan mesh of the electric race car",
+    "groups": [
+      {
+        "title": "Original vehicle scan",
+        "items": [
+          {
+            "file": "ev-mesh-three-quarter.png",
+            "alt": "Three-quarter view of a mesh of the race car",
+            "caption": "A scan-derived mesh of the existing car."
+          },
+          {
+            "file": "ev-mesh-side.png",
+            "alt": "Side view of the scanned race car mesh",
+            "caption": "A second view used to examine the body geometry."
+          },
+          {
+            "file": "ev-mesh-front.png",
+            "alt": "Front view of the scanned race car mesh",
+            "caption": "Front geometry of the scanned vehicle."
+          },
+          {
+            "file": "ev-mesh-rear.png",
+            "alt": "Rear view of the scanned race car mesh",
+            "caption": "Rear geometry of the scanned vehicle."
+          }
+        ]
+      },
+      {
+        "title": "Revised body geometry",
+        "items": [
+          {
+            "file": "ev-body-revision-three-quarter.png",
+            "alt": "Three-quarter CAD mesh view of the revised electric race car body",
+            "caption": "Edited body shape developed from the original scan to explore a more streamlined profile."
+          },
+          {
+            "file": "ev-body-revision-side.png",
+            "alt": "Side CAD mesh view of the revised electric race car body",
+            "caption": "Side view of the revised body geometry."
+          },
+          {
+            "file": "ev-body-revision-front.png",
+            "alt": "Front CAD mesh view of the revised electric race car body",
+            "caption": "Front view of the revised body geometry."
+          }
+        ]
+      }
+    ]
+  },
+  "ev-mechanical-testing": {
+    "cover": "ev-cfd-flow.png",
+    "coverAlt": "CFD airflow visualization around electric race car 090",
+    "groups": [
+      {
+        "title": "Simulation and testing",
+        "items": [
+          {
+            "file": "ev-cfd-flow.png",
+            "alt": "Colored CFD streamlines around the electric race car",
+            "caption": "Airflow visualization used for body-design review; it is a simulation."
+          },
+          {
+            "file": "ev-race-grid-wide.jpeg",
+            "alt": "Electric car 090 on the track",
+            "caption": "The physical car used as the design reference."
+          },
+          {
+            "file": "ev-working-wiring.jpeg",
+            "alt": "Aahad working on a system in the race car",
+            "caption": "Hands-on checks during vehicle development."
+          }
+        ]
+      }
+    ]
+  },
+  "vex-robotics": {
+    "cover": "vex-robot.jpeg",
+    "coverAlt": "VEX V5 robot with ring-handling mechanism",
+    "groups": [
+      {
+        "title": "Robot and testing",
+        "items": [
+          {
+            "file": "vex-robot.jpeg",
+            "alt": "VEX robot showing its drivetrain and ring-handling hardware",
+            "caption": "The competition robot during testing."
+          },
+          {
+            "file": "vex-robot-aahad-testing.jpeg",
+            "alt": "Aahad testing the VEX robot with rings",
+            "caption": "Testing the robot with competition field elements."
+          },
+          {
+            "file": "vex-team-build.png",
+            "alt": "Aahad and a teammate inspecting a VEX mechanism",
+            "caption": "Team build and mechanism inspection."
+          },
+          {
+            "file": "vex-team-robot.jpeg",
+            "alt": "Students standing with a competition robot",
+            "caption": "The team with its robot at a competition."
+          },
+          {
+            "file": "vex-robot-test.jpeg",
+            "alt": "VEX robot beside a yellow field element",
+            "caption": "Another test of the robot and its mechanism."
+          },
+          {
+            "file": "vex-team-mechanism.png",
+            "alt": "Two students inspecting a VEX robot mechanism",
+            "caption": "Inspecting the robot's structure and mechanism."
+          },
+          {
+            "file": "vex-parts-assembly.png",
+            "alt": "Student assembling a VEX robot part",
+            "caption": "Working on the mechanical assembly."
+          },
+          {
+            "file": "vex-solo-build.png",
+            "alt": "Student building a VEX robot frame",
+            "caption": "An individual build session."
+          }
+        ]
+      },
+      {
+        "title": "Robotics participation",
+        "items": [
+          {
+            "file": "vex-advanced-club-2024-certificate.jpeg",
+            "alt": "2024 SABIS Advanced Robotics Club certificate for Aahad Rashid",
+            "caption": "Advanced Robotics Club participation, November 2024."
+          },
+          {
+            "file": "vex-robotics-advanced-2025-certificate.jpeg",
+            "alt": "2025 SABIS Robotics Advanced certificate for Aahad Rashid",
+            "caption": "Robotics Advanced participation certificate, February 2025."
+          },
+          {
+            "file": "vex-advanced-robotics-2025-certificate.jpeg",
+            "alt": "2025 SABIS STEAM Advanced Robotics certificate for Aahad Rashid",
+            "caption": "Advanced Robotics certificate, May 2025."
+          }
+        ]
+      }
+    ]
+  },
+  "adnoc-placement": {
+    "cover": "adnoc-certificate.jpeg",
+    "coverAlt": "Aahad at the ADNOC Energy Bootcamp and Work Placement graduation",
+    "groups": [
+      {
+        "title": "Placement and completion",
+        "items": [
+          {
+            "file": "adnoc-certificate.jpeg",
+            "alt": "Aahad and another student at the ADNOC graduation",
+            "caption": "ADNOC Energy Bootcamp and Work Placement graduation, summer 2026."
+          },
+          {
+            "file": "adnoc-lab-selfie.jpeg",
+            "alt": "Aahad and fellow placement participants in lab coats",
+            "caption": "With fellow participants during the placement."
+          },
+          {
+            "file": "adnoc-certificate-close.jpeg",
+            "alt": "ADNOC certificate of completion with Aahad Rashid’s name",
+            "caption": "Certificate of completion from the 2026 program."
+          }
+        ]
+      }
+    ]
+  },
+  "mbzuai-bootcamp": {
+    "cover": "mbzuai-teamwork.jpg",
+    "coverAlt": "Aahad working with other students at the MBZUAI bootcamp",
+    "groups": [
+      {
+        "title": "Program and project",
+        "items": [
+          {
+            "file": "mbzuai-teamwork.jpg",
+            "alt": "Students collaborating at laptops during the bootcamp",
+            "caption": "Working with the team during the program."
+          },
+          {
+            "file": "mbzuai-presentation.jpg",
+            "alt": "Students presenting beside a screen at the bootcamp",
+            "caption": "Sharing project work at the bootcamp."
+          },
+          {
+            "file": "mbzuai-program.jpg",
+            "alt": "A student speaking with a program participant",
+            "caption": "A moment from the MBZUAI program."
+          },
+          {
+            "file": "mbzuai-graduation.jpg",
+            "alt": "Bootcamp participants holding certificates",
+            "caption": "Bootcamp completion group photograph."
+          },
+          {
+            "file": "mbzuai-certificate.jpeg",
+            "alt": "MBZUAI Hybrid Intelligence Bootcamp certificate for Aahad Rashid",
+            "caption": "Certificate of participation, July 2026."
+          }
+        ]
+      },
+      {
+        "title": "Learning Compass demonstration",
+        "items": [
+          {
+            "file": "mbzuai-learning-compass-demo.mp4",
+            "alt": "Screen recording demonstrating the Learning Compass accessible learning website",
+            "caption": "Two-minute screen recording of the Learning Compass project interface from the MBZUAI bootcamp."
+          }
+        ]
+      }
+    ]
+  },
+  "qer-internship": {
+    "cover": "qer-generator-inspection.jpeg",
+    "coverAlt": "Inspection of a generator at QER",
+    "groups": [
+      {
+        "title": "Workshop experience",
+        "items": [
+          {
+            "file": "qer-cable.jpeg",
+            "alt": "Aahad holding an electrical cable cross-section",
+            "caption": "Examining cable construction during the internship."
+          },
+          {
+            "file": "qer-generator-inspection.jpeg",
+            "alt": "Close-up of generator component inspection",
+            "caption": "Generator component inspection in the workshop."
+          },
+          {
+            "file": "qer-generator-bay.jpeg",
+            "alt": "Generator equipment in a maintenance bay",
+            "caption": "Generator maintenance area."
+          },
+          {
+            "file": "qer-workshop-selfie.jpeg",
+            "alt": "Aahad wearing a hard hat during the internship",
+            "caption": "Workshop safety equipment during the QER placement."
+          }
+        ]
+      }
+    ]
+  },
+  "khalifa-job-shadowing": {
+    "cover": "khalifa-visit.jpeg",
+    "coverAlt": "Aahad and a group outside Khalifa University",
+    "groups": [
+      {
+        "title": "University visit",
+        "items": [
+          {
+            "file": "khalifa-visit.jpeg",
+            "alt": "Group photograph at the Khalifa University sign",
+            "caption": "Job-shadowing visit to Khalifa University."
+          },
+          {
+            "file": "khalifa-laboratory.jpeg",
+            "alt": "Laboratory workspace with instruments and materials",
+            "caption": "A laboratory workspace seen during the visit."
+          }
+        ]
+      }
+    ]
+  },
+  "robotics-mentoring": {
+    "cover": "vex-workshop-test.jpeg",
+    "coverAlt": "Students testing a robot during a workshop",
+    "groups": [
+      {
+        "title": "Mentoring sessions",
+        "items": [
+          {
+            "file": "vex-workshop-test.jpeg",
+            "alt": "Students testing a robot at a workshop",
+            "caption": "Helping students test a robot during a mentoring session."
+          },
+          {
+            "file": "vex-workshop-build.jpeg",
+            "alt": "Student working on a VEX robot mechanism",
+            "caption": "Supporting the build and testing process."
+          }
+        ]
+      },
+      {
+        "title": "Recognition",
+        "items": [
+          {
+            "file": "vex-create-award.jpeg",
+            "alt": "Create Award certificate issued to Aahad Rashid at the UAE National VEX Robotics Competition on 1 February 2026",
+            "caption": "Create Award, UAE National VEX Robotics Competition, 1 February 2026. Awarded to a team I mentored; the certificate names me."
+          }
+        ]
+      }
+    ]
+  },
+  "3d-printing": {
+    "cover": "printing-workshop.jpeg",
+    "coverAlt": "Students learning to design 3D objects at a workshop",
+    "groups": [
+      {
+        "title": "Design and making",
+        "items": [
+          {
+            "file": "printing-workshop.jpeg",
+            "alt": "Students working at 3D printing stations",
+            "caption": "Students designing and making physical objects."
+          },
+          {
+            "file": "printing-active.jpeg",
+            "alt": "Hands-on work at a 3D printing table",
+            "caption": "Printing workshop in progress."
+          },
+          {
+            "file": "printing-team.jpeg",
+            "alt": "Aahad with other students holding certificates",
+            "caption": "The team after the 3D design and printing program."
+          },
+          {
+            "file": "printing-certificate.jpeg",
+            "alt": "Certificate for Aahad Rashid in 3D modelling and printing",
+            "caption": "Participation certificate for 3D modelling and printing."
+          },
+          {
+            "file": "printing-workshop-wide.png",
+            "alt": "Students working in a 3D printing workshop",
+            "caption": "Workshop setup with students and printers."
+          },
+          {
+            "file": "printing-student-design.png",
+            "alt": "Students developing original designs at printing workstations",
+            "caption": "Design activity during the 3D printing workshop."
+          },
+          {
+            "file": "printing-printer-check.png",
+            "alt": "Student checking a 3D printer during the workshop",
+            "caption": "Checking a print in progress."
+          }
+        ]
+      },
+      {
+        "title": "3D printing certificates",
+        "items": [
+          {
+            "file": "printing-club-2023-certificate.jpeg",
+            "alt": "2023 SABIS 3D Printing Club certificate for Aahad Rashid",
+            "caption": "3D Printing Club participation, November 2023."
+          },
+          {
+            "file": "printing-steam-2024-certificate.jpeg",
+            "alt": "2024 SABIS STEAM 3D Printing certificate for Aahad Rashid",
+            "caption": "2024 SABIS STEAM 3D Printing participation certificate."
+          },
+          {
+            "file": "printing-club-2024-certificate.jpeg",
+            "alt": "2024 SABIS 3D Printing Club certificate for Aahad Rashid",
+            "caption": "3D Printing Club participation, April 2024."
+          }
+        ]
+      }
+    ]
+  },
+  "circuits-electronics": {
+    "cover": "circuits-board-review.jpeg",
+    "coverAlt": "A teammate holding a circuit board for Aahad to document",
+    "groups": [
+      {
+        "title": "Electronics work",
+        "items": [
+          {
+            "file": "circuits-board-review.jpeg",
+            "alt": "A teammate holding a circuit board above an electronics worksheet",
+            "caption": "Documenting a circuit board with a teammate."
+          },
+          {
+            "file": "circuits-soldering-station.jpeg",
+            "alt": "Aahad giving a thumbs-up beside a soldering station",
+            "caption": "At the soldering station during electronics work."
+          },
+          {
+            "file": "electronics-certificate.jpeg",
+            "alt": "SABIS certificate for Aahad Rashid in electronics circuit building",
+            "caption": "Certificate from the electronics circuit-building activity."
+          }
+        ]
+      }
+    ]
+  },
+  "tennis-ball-kid": {
+    "cover": "ball-kid-letter.jpeg",
+    "coverAlt": "2025 Dubai Duty Free Tennis Championships letter naming Aahad Rashid for ball kid training",
+    "groups": [
+      {
+        "title": "Selection and training",
+        "items": [
+          {
+            "file": "ball-kid-letter.jpeg",
+            "alt": "Dubai Duty Free Tennis Championships letter about Aahad’s 2025 ball kid training",
+            "caption": "Letter confirming completion of ball kid training for the 2025 tournament."
+          }
+        ]
+      }
+    ]
+  }
+}

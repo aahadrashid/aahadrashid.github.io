@@ -1,0 +1,620 @@
+[
+  {
+    "slug": "ev-grand-prix",
+    "title": "EV Grand Prix Electric Race Car",
+    "shortTitle": "Electric race car",
+    "category": "Engineering",
+    "period": "2025–2027",
+    "status": "Ongoing",
+    "role": "Team head and technical contributor",
+    "location": "Karting Town, Sharjah · 14 February 2026",
+    "featured": true,
+    "summary": "An electric endurance car built and raced through electrical integration, telemetry, design, testing and team leadership.",
+    "overview": "I head the school’s Electric Vehicle Grand Prix effort, coordinating more than 80 students across seven teams while working directly on the vehicle. We built and raced the car in 2026. My technical contributions span wiring and repairs, telemetry, battery and motor research, CAD and 3D scanning, race preparation and troubleshooting. The project continues toward the 2027 season.",
+    "contributions": [
+      "Led and coordinated more than 80 students across seven teams.",
+      "Worked on vehicle wiring, soldering, electrical troubleshooting and repairs.",
+      "Developed the earlier telemetry integration and an AI-supported race strategy; finalized a revised telemetry design for 2027.",
+      "Contributed to battery and motor research, CAD, 3D scanning, body modelling and testing.",
+      "Worked with the driver during vehicle preparation and race-day checks."
+    ],
+    "technical": [
+      {
+        "heading": "A complete vehicle, not a single subsystem",
+        "text": "The car brings together a 48 V powertrain, controls, sensing, mechanical packaging and the team processes needed to test safely. Each change has to work with the rest of the vehicle, under constraints of mass, energy, reliability and race rules."
+      },
+      {
+        "heading": "My hands-on role",
+        "text": "I wired and repaired electrical connections, investigated faults, worked on telemetry integration, supported CAD and body development, and prepared the car with the driver. Dedicated case studies explain the electrical system, telemetry, digital modelling and vehicle testing."
+      },
+      {
+        "heading": "At the competition",
+        "text": "At Karting Town, Sharjah on 14 February 2026, the team received four EVGP awards. At the separate 2026 SABIS STEAM competition hosted at SIS Yas Island, the car placed third overall and was highest ranked in the Unmodified category."
+      }
+    ],
+    "results": [
+      "EVGP 2026: 2nd place, Best Use of AI for Race Strategy",
+      "EVGP 2026: 3rd place, Promotion and Outreach",
+      "EVGP 2026: 3rd place, Social Media Outreach",
+      "EVGP 2026: 1st place, Best Photo",
+      "2026 SABIS STEAM competition at SIS Yas Island: 3rd place overall and highest ranked in the Unmodified category"
+    ],
+    "related": [
+      "ev-electrical-powertrain",
+      "ev-telemetry",
+      "ev-cad-scanning",
+      "ev-mechanical-testing"
+    ]
+  },
+  {
+    "slug": "ev-electrical-powertrain",
+    "title": "EV Electrical & Powertrain",
+    "shortTitle": "EV powertrain",
+    "category": "Engineering",
+    "period": "2025–2027",
+    "status": "Built and tested; ongoing",
+    "role": "Electrical systems contributor",
+    "location": "Electric Vehicle Grand Prix",
+    "featured": true,
+    "summary": "The 48 V traction system, protection path, battery strategy and fault repairs behind the race car.",
+    "overview": "I worked on the car’s power and control wiring and diagnosed faults during development. The 48 V traction system uses interchangeable packs of four 12 V / 12 Ah sealed lead-acid batteries in series. A separate 12.8 V / 7 Ah LiFePO4 pack powers low-voltage electronics and telemetry.",
+    "contributions": [
+      "Wired, soldered and repaired vehicle electrical and control connections.",
+      "Traced a no-power failure to a blown main fuse and verified power after replacement.",
+      "Diagnosed and replaced a faulty contactor; repaired throttle and dashboard-control faults.",
+      "Proposed a one-pack-per-heat strategy to reduce the mass carried during each heat."
+    ],
+    "technical": [
+      {
+        "heading": "Protection and power path",
+        "text": "Traction power runs through an emergency kill switch, a 100 A fuse, contactor and precharge circuit before the motor controller and rear-wheel motor. A Cycle Analyst and shunt monitor the traction supply."
+      },
+      {
+        "heading": "Throttle repair",
+        "text": "A damaged 14-pin connector interrupted the throttle signal. I bypassed the faulty connector, soldered the throttle wires to the correct controller connections and checked throttle response."
+      },
+      {
+        "heading": "Dual-pack race strategy",
+        "text": "The plan is to install one interchangeable pack per heat and swap between heats. This reduces mass carried during each run while keeping both packs available across the competition. The expected efficiency benefit is a design rationale, not a measured race result."
+      },
+      {
+        "heading": "Verification after repair",
+        "text": "I checked continuity, voltage and the affected function after each repair, then repeated the original fault test before returning to wider vehicle testing."
+      }
+    ],
+    "results": [
+      "48 V vehicle power system built and tested",
+      "Main-fuse, contactor, throttle and dashboard faults diagnosed and repaired"
+    ],
+    "related": [
+      "ev-grand-prix",
+      "ev-telemetry",
+      "ev-mechanical-testing"
+    ]
+  },
+  {
+    "slug": "ev-telemetry",
+    "title": "EV Telemetry System",
+    "shortTitle": "EV telemetry",
+    "category": "Engineering",
+    "period": "2025–2027",
+    "status": "Ongoing",
+    "role": "Main individual technical focus",
+    "location": "EV Grand Prix project",
+    "featured": true,
+    "summary": "Vehicle measurement work and a finalized ESP32-C3 / Raspberry Pi architecture planned for the 2027 car.",
+    "overview": "Telemetry has been my main individual technical focus on the EV. I integrated and tested an earlier measurement setup on the car, tracing power, grounding, continuity, communication and signal-quality issues. I later finalized a revised architecture for planned use in 2027. The revised hardware was a design at the 2026 race.",
+    "contributions": [
+      "Connected the telemetry system to the vehicle's electrical system.",
+      "Tested voltage, current, speed and location measurement channels separately.",
+      "Checked sensor power, grounding, wiring continuity and communication between hardware components.",
+      "Reduced interference by shielding and reorganizing signal wiring, then retested readings on the car.",
+      "Finalized the 2027 architecture around sensing, local processing and remote connectivity."
+    ],
+    "technical": [
+      {
+        "heading": "2026 vehicle integration",
+        "text": "For the earlier system, I checked sensor power, grounding, wiring continuity and communication between components. I tested voltage, current, speed and location channels individually before checking them together on the car. Shielding and signal-wire routing helped address interference and inaccurate readings, including issues affecting the Cycle Analyst."
+      },
+      {
+        "heading": "What the data is for",
+        "text": "The measurement plan covers pack voltage, battery current, speed and vehicle position. Logged or transmitted readings could help the team compare tests, understand energy use and make better-informed race decisions."
+      },
+      {
+        "heading": "Finalized 2027 design",
+        "text": "The revised architecture specifies an ESP32-C3 for sensing and low-level communication, an ADS1115 ADC, a Raspberry Pi 4B for processing, a cellular/GNSS module, a voltage-divider circuit and Hall-effect current sensing. This design is finalized for planned use on the 2027 car."
+      },
+      {
+        "heading": "Design iteration",
+        "text": "The earlier ESP32-based approach was simpler. The revised design separates sensing, processing and connectivity. IMU and wheel-Hall concepts were removed after the measurement plan was narrowed to what GPS could provide."
+      }
+    ],
+    "results": [
+      "Earlier telemetry system integrated and tested on the EV",
+      "Revised system design finalized for planned use in 2027"
+    ],
+    "related": [
+      "ev-grand-prix",
+      "ev-electrical-powertrain",
+      "ev-cad-scanning"
+    ]
+  },
+  {
+    "slug": "ev-cad-scanning",
+    "title": "EV CAD & Reverse Engineering",
+    "shortTitle": "EV CAD and scanning",
+    "category": "Engineering",
+    "period": "2025–2027",
+    "status": "Ongoing",
+    "role": "CAD and scanning contributor",
+    "location": "EVGP vehicle development",
+    "featured": true,
+    "summary": "Scanning the existing race car, then revising its digital body shape for a more streamlined design.",
+    "overview": "Our team scanned the existing electric race car and turned the physical body into a 3D mesh. That original model became the starting point for an edited body shape intended to be more aerodynamic. I contributed to the scanning, mesh review and CAD work. The gallery shows both stages; the revised shape is a design iteration, not a measured drag result.",
+    "contributions": [
+      "Contributed to the 3D scan and digital model of the existing race car.",
+      "Reviewed the original mesh to understand the body and component space.",
+      "Helped develop an edited body model with a more streamlined shape for design review."
+    ],
+    "technical": [
+      {
+        "heading": "From car to model",
+      "text": "The workflow moved from the physical car to a 3D scan and mesh. The original model preserved the existing body shape and gave the team geometry to inspect before making changes."
+      },
+      {
+      "heading": "Body-shape revision",
+      "text": "We then edited the digital body to explore a more streamlined exterior while checking how the revised shape related to the original car. The side, front and three-quarter views document that design step."
+      },
+      {
+        "heading": "Scope of evidence",
+      "text": "The gallery separates the original scan from the revised body model. These screenshots document the design process; they do not by themselves establish a measured aerodynamic gain."
+      }
+    ],
+    "results": [
+      "Original 3D scan and revised body model documented in multiple views"
+    ],
+    "related": [
+      "ev-grand-prix",
+      "ev-mechanical-testing",
+      "3d-printing"
+    ]
+  },
+  {
+    "slug": "ev-mechanical-testing",
+    "title": "EV Mechanical Design & Testing",
+    "shortTitle": "EV design and testing",
+    "category": "Engineering",
+    "period": "2025–2027",
+    "status": "Ongoing",
+    "role": "Vehicle design and testing contributor",
+    "location": "EVGP vehicle development",
+    "featured": false,
+    "summary": "Packaging, material choices, airflow study and repeatable fault-finding on the electric race car.",
+    "overview": "I contributed to mechanical decisions and testing across the EV project, including floorboard materials, weight, steering layout, battery mounting, braking components and overall packaging. I also used a CFD airflow visualization to examine the existing body and explore a smoother shape in CAD.",
+    "contributions": [
+      "Supported mechanical packaging and material-selection discussions.",
+      "Reviewed an airflow visualization from a CFD model of the race car.",
+      "Used testing and fault diagnosis to guide vehicle changes and repairs."
+    ],
+    "technical": [
+      {
+        "heading": "Vehicle packaging",
+        "text": "A small endurance car forces close coordination between steering, motor, batteries, controls, brakes and the driver. Decisions about one part affect mass distribution, access for repair and available space elsewhere."
+      },
+      {
+        "heading": "Airflow study",
+        "text": "A 3D representation of the vehicle was used in CFD to visualize airflow around the body. Disrupted regions suggested possible geometry changes, which were explored in CAD. The visualization is a simulation, not a measured on-track aerodynamic result."
+      },
+      {
+        "heading": "Repeat the original test",
+        "text": "For electrical and control faults, the team traced the failure, changed the suspect part or connection, then repeated the same test to confirm the fault was actually resolved."
+      }
+    ],
+    "results": [
+      "CFD visualization used to inform body-design discussion",
+      "Vehicle tests and post-repair checks supported further iteration"
+    ],
+    "related": [
+      "ev-grand-prix",
+      "ev-cad-scanning",
+      "ev-electrical-powertrain"
+    ]
+  },
+  {
+    "slug": "adnoc-placement",
+    "title": "ADNOC Energy Bootcamp and Work Placement",
+    "shortTitle": "ADNOC placement",
+    "category": "Industry",
+    "period": "2026 · Grade 11",
+    "status": "Completed",
+    "role": "Selected work-placement student",
+    "location": "ADNOC, UAE",
+    "featured": false,
+    "summary": "Industry exposure to oil and gas operations, laboratory testing, safety and quality control.",
+    "overview": "I was one of five students selected for ADNOC's Energy Bootcamp and Work Placement in summer 2026. The experience introduced me to industrial energy operations and the procedures that support safe, reliable work at scale. A graduation certificate documents my participation.",
+    "contributions": [
+      "Learned about oil and gas operations and oil extraction processes.",
+      "Gained exposure to laboratory testing and quality control.",
+      "Studied industrial safety practices and the role of procedures in technical work.",
+      "Completed the bootcamp and work placement, documented by the graduation certificate."
+    ],
+    "technical": [
+      {
+        "heading": "What the placement covered",
+        "text": "The placement connected laboratory measurements, operational decisions, quality control and safety in an industrial energy setting."
+      }
+    ],
+    "results": [
+      "Selected as one of five students for the placement"
+    ],
+    "related": [
+      "qer-internship",
+      "khalifa-job-shadowing"
+    ]
+  },
+  {
+    "slug": "mbzuai-bootcamp",
+    "title": "MBZUAI Hybrid Intelligence Bootcamp",
+    "shortTitle": "MBZUAI bootcamp",
+    "category": "AI and Software",
+    "period": "2026 · Grade 11",
+    "status": "Completed",
+    "role": "Selected participant and project contributor",
+    "location": "Mohamed bin Zayed University of Artificial Intelligence",
+    "featured": false,
+    "summary": "Applied AI learning and an accessible learning website for children with disabilities.",
+    "overview": "I was one of two students selected for the 2026 MBZUAI Hybrid Intelligence Bootcamp. During the one-week program I studied applied AI and worked with a team on an accessible learning website for children with disabilities. The photographs show the workshop, team work and final presentation; a screen recording demonstrates the Learning Compass interface.",
+    "contributions": [
+      "Completed the one-week Hybrid Intelligence Bootcamp.",
+      "Worked with the project team on an accessible learning website.",
+      "Explored how AI could support the intended learning experience."
+    ],
+    "technical": [
+      {
+        "heading": "Project direction",
+        "text": "The team focused on a more accessible learning experience for children with disabilities, using the bootcamp's applied AI work as part of the project."
+      }
+    ],
+    "results": [
+      "Selected as one of two students for the course"
+    ],
+    "related": [
+      "innovai-te-hackathon",
+      "sos-crash-detection"
+    ]
+  },
+  {
+    "slug": "qer-internship",
+    "title": "QER Generator Repair Internship",
+    "shortTitle": "QER internship",
+    "category": "Industry",
+    "period": "2026 · Grade 11",
+    "status": "Completed",
+    "role": "Engineering intern",
+    "location": "Quality Equipment Rental LLC",
+    "featured": false,
+    "summary": "Hands-on learning in generator maintenance, electrical and mechanical components, testing and fault diagnosis.",
+    "overview": "At Quality Equipment Rental LLC in 2026, I spent two weeks learning how generators are inspected, maintained and repaired. The workshop experience connected electrical-machine theory to component inspection, fault diagnosis, testing and careful reassembly.",
+    "contributions": [
+      "Learned generator disassembly, maintenance and testing workflows.",
+      "Studied electrical and mechanical components, including cable construction.",
+      "Learned how faults are identified, checked and addressed during repair."
+    ],
+    "technical": [
+      {
+        "heading": "Engineering connection",
+        "text": "Generator reliability depends on both electrical and mechanical condition. The placement showed how technicians use inspection, testing and careful reassembly to diagnose faults and return equipment to service."
+      }
+    ],
+    "results": [],
+    "related": [
+      "adnoc-placement",
+      "khalifa-job-shadowing",
+      "circuits-electronics"
+    ]
+  },
+  {
+    "slug": "khalifa-job-shadowing",
+    "title": "Khalifa University Job Shadowing",
+    "shortTitle": "Khalifa University",
+    "category": "Industry",
+    "period": "2026 · Grade 11",
+    "status": "Completed",
+    "role": "Job-shadowing participant",
+    "location": "Khalifa University",
+    "featured": false,
+    "summary": "A closer look at engineering research, laboratories and university-level technical work.",
+    "overview": "During a 2026 job-shadowing program at Khalifa University, I observed engineering professionals and laboratory settings. The visit showed how research questions, instruments and careful documentation connect in university-level technical work.",
+    "contributions": [
+      "Observed engineering professionals in a university research setting.",
+      "Learned how laboratory work supports engineering questions and careers."
+    ],
+    "technical": [
+      {
+        "heading": "Research setting",
+        "text": "The program gave me a closer view of how engineering professionals use laboratories and research environments at university level."
+      }
+    ],
+    "results": [],
+    "related": [
+      "adnoc-placement",
+      "qer-internship"
+    ]
+  },
+  {
+    "slug": "innovai-te-hackathon",
+    "title": "InnovAIte Hackathon",
+    "shortTitle": "InnovAIte hackathon",
+    "category": "AI and Software",
+    "period": "2026 · Grade 11",
+    "status": "Completed",
+    "role": "Selected school representative",
+    "location": "InnovAIte",
+    "featured": false,
+    "summary": "A team-built AI concept developed and presented under hackathon conditions.",
+    "overview": "I was one of five students selected to represent my school at InnovAIte. My team developed and presented an AI-based solution, bringing together research, problem solving, collaboration and pitching.",
+    "contributions": [
+      "Collaborated on the team's AI-based solution.",
+      "Helped prepare and deliver the presentation.",
+      "Worked through the time pressure and decisions of a hackathon."
+    ],
+    "technical": [
+      {
+        "heading": "Solution and process",
+        "text": "The team moved from an AI-based idea to a presentation under hackathon time limits, combining technical reasoning with a clear pitch."
+      }
+    ],
+    "results": [
+      "Selected as one of five school representatives"
+    ],
+    "related": [
+      "mbzuai-bootcamp",
+      "uae-hackathon"
+    ]
+  },
+  {
+    "slug": "robotics-mentoring",
+    "title": "Robotics Mentoring",
+    "shortTitle": "Robotics mentoring",
+    "category": "Leadership",
+    "period": "2024–2026 · Grades 10 and 11",
+    "status": "Completed",
+    "role": "Mentor",
+    "location": "School robotics teams",
+    "featured": false,
+    "summary": "Guiding younger students through robot design, coding, testing and competition preparation.",
+    "overview": "I mentored younger robotics students, including Grade 6 students, over two school years. I supported their design and build work, helped them troubleshoot setbacks and guided one team to a first-place STEAM result. A team I mentored also won the Create Award at the UAE National VEX Robotics Competition on 1 February 2026; the achievement certificate was issued in my name.",
+    "contributions": [
+      "Explained robot design, construction and coding to younger students.",
+      "Helped teams test and troubleshoot their robots.",
+      "Guided students through setbacks and competition preparation."
+    ],
+    "technical": [
+      {
+        "heading": "Mentoring through making",
+        "text": "The work involved helping students turn an idea into a functioning robot, understand why a mechanism or program was failing, and test an improvement rather than guessing at a fix."
+      }
+    ],
+    "results": [
+      "A mentored team earned 1st place in STEAM",
+      "A team I mentored won the Create Award at the UAE National VEX Robotics Competition, 1 February 2026"
+    ],
+    "related": [
+      "vex-robotics",
+      "student-hackathon-organizing"
+    ]
+  },
+  {
+    "slug": "vex-robotics",
+    "title": "VEX V5 High Stakes Robotics",
+    "shortTitle": "VEX robotics",
+    "category": "Robotics",
+    "period": "2024–2025 · Grade 10",
+    "status": "Completed",
+    "role": "Seven-member team leader",
+    "location": "International STEAM competition",
+    "featured": true,
+    "summary": "Leading a seven-member team through VEX V5 design, construction, programming and field testing.",
+    "overview": "I led a seven-member team building a VEX V5 robot for the High Stakes challenge at an international STEAM competition. My contributions included drivetrain CAD, mechanical assembly, programming and debugging, driver testing and match strategy. Build photographs and robotics participation certificates document the work.",
+    "contributions": [
+      "Led the seven-member team through design, build and testing.",
+      "Developed drivetrain CAD.",
+      "Contributed to programming and robot testing.",
+      "Planned match strategy."
+    ],
+    "technical": [
+      {
+        "heading": "From CAD to field test",
+        "text": "We developed the drivetrain and mechanisms, assembled the robot, and tested it with rings and field elements. Testing showed how reliably the robot could perform the competition tasks and informed driver practice and match planning."
+      },
+      {
+        "heading": "Team coordination",
+        "text": "Leading the build meant dividing design, fabrication, code and testing work across seven students, then bringing those parts together into one competition robot."
+      }
+    ],
+    "results": [],
+    "related": [
+      "robotics-mentoring",
+      "3d-printing",
+      "circuits-electronics"
+    ]
+  },
+  {
+    "slug": "student-hackathon-organizing",
+    "title": "Student Hackathon Organization",
+    "shortTitle": "Hackathon organization",
+    "category": "Leadership",
+    "period": "2026 · Grade 12",
+    "status": "In progress",
+    "role": "Student organizer",
+    "location": "School event",
+    "featured": false,
+    "summary": "Coordinating participants, activities, scheduling and event logistics for a student hackathon.",
+    "overview": "I am organizing a student hackathon. My work covers participant coordination, schedules, activities and the practical details needed to make the event run smoothly.",
+    "contributions": [
+      "Coordinate participants and communication.",
+      "Plan the schedule and activities.",
+      "Work through event logistics and preparation."
+    ],
+    "technical": [
+      {
+        "heading": "Event operations",
+        "text": "The organizing work involves planning requirements, timelines and communication across participants and activities."
+      }
+    ],
+    "results": [],
+    "related": [
+      "uae-hackathon",
+      "robotics-mentoring"
+    ]
+  },
+  {
+    "slug": "uae-hackathon",
+    "title": "UAE Hackathon Team",
+    "shortTitle": "UAE hackathon",
+    "category": "AI and Software",
+    "period": "2027 · Grade 12",
+    "status": "In preparation",
+    "role": "Team member",
+    "location": "UAE Hackathon",
+    "featured": false,
+    "summary": "Researching and designing a technology-based solution for the official UAE Hackathon.",
+    "overview": "I am working with a team on research, ideation, design and presentation preparation for the official UAE Hackathon. The final solution and result are still to come.",
+    "contributions": [
+      "Research the challenge with the team.",
+      "Develop ideas and contribute to solution design.",
+      "Help prepare the presentation."
+    ],
+    "technical": [
+      {
+        "heading": "Current stage",
+        "text": "The team is working through research, ideation, design and presentation preparation ahead of the 2027 event."
+      }
+    ],
+    "results": [],
+    "related": [
+      "innovai-te-hackathon",
+      "student-hackathon-organizing"
+    ]
+  },
+  {
+    "slug": "sos-crash-detection",
+    "title": "SABIS Stars SOS Crash Detection Box",
+    "shortTitle": "SOS crash-detection box",
+    "category": "Engineering",
+    "period": "2026 · Grade 11",
+    "status": "Completed",
+    "role": "School representative and designer",
+    "location": "SABIS Stars",
+    "featured": false,
+    "summary": "An SOS crash-detection box designed for an international school competition.",
+    "overview": "I was one of two students chosen schoolwide to represent my school internationally at SABIS Stars. For the event, I designed an SOS crash-detection box.",
+    "contributions": [
+      "Represented my school as one of two selected students.",
+      "Designed the SOS crash-detection box.",
+      "Prepared the project for the competition."
+    ],
+    "technical": [
+      {
+        "heading": "Design focus",
+        "text": "The concept centers on recognizing a possible crash and triggering an SOS response. The project brought together a physical enclosure, electronics and an emergency-use scenario."
+      }
+    ],
+    "results": [
+      "Selected as one of two school representatives"
+    ],
+    "related": [
+      "ev-telemetry",
+      "circuits-electronics"
+    ]
+  },
+  {
+    "slug": "tennis-ball-kid",
+    "title": "Dubai Duty Free Tennis Championships Volunteer",
+    "shortTitle": "Tennis volunteer",
+    "category": "Service",
+    "period": "2025 · Grade 10",
+    "status": "Completed",
+    "role": "Selected ball kid volunteer",
+    "location": "Dubai Duty Free Tennis Championships",
+    "featured": false,
+    "summary": "Supporting live match operations as a selected ball kid volunteer.",
+    "overview": "I was selected to volunteer as a ball kid at the Dubai Duty Free Tennis Championships in 2025. The role demanded attention, timing and coordination during live match operations. A certificate from the event documents my participation.",
+    "contributions": [
+      "Supported match operations as a volunteer ball kid.",
+      "Worked as part of the event team under match conditions."
+    ],
+    "technical": [
+      {
+        "heading": "Transferable practice",
+        "text": "Although this was not an engineering project, it strengthened the focus, coordination and responsibility I bring to team-based technical work."
+      }
+    ],
+    "results": [
+      "Selected for the volunteer role"
+    ],
+    "related": [
+      "robotics-mentoring",
+      "student-hackathon-organizing"
+    ]
+  },
+  {
+    "slug": "3d-printing",
+    "title": "3D Printing and Modelling",
+    "shortTitle": "3D printing",
+    "category": "Engineering",
+    "period": "2023–2024 · Grade 9",
+    "status": "Completed",
+    "role": "Ten-student team leader",
+    "location": "International STEAM competition",
+    "featured": false,
+    "summary": "Leading a student team through CAD, slicing, printing, testing and design iteration.",
+    "overview": "I led a ten-student 3D printing and modelling team for an international STEAM competition. We moved from CAD models through slicing, printer setup, physical prototypes and testing. Workshop photographs and certificates from 2023 and 2024 document the activity.",
+    "contributions": [
+      "Led the ten-student design and printing team.",
+      "Developed CAD models and prepared prints with slicing software.",
+      "Set up printers, tested output and iterated on designs."
+    ],
+    "technical": [
+      {
+        "heading": "From model to part",
+        "text": "The process connected digital geometry with a physical prototype. Each iteration required checking whether the printed part matched the intended form and function, then adjusting the model or print setup."
+      }
+    ],
+    "results": [],
+    "related": [
+      "vex-robotics",
+      "circuits-electronics"
+    ]
+  },
+  {
+    "slug": "circuits-electronics",
+    "title": "Circuits and Electronics",
+    "shortTitle": "Circuits and electronics",
+    "category": "Engineering",
+    "period": "2022–2023 · Grade 8",
+    "status": "Completed",
+    "role": "Eight-student team co-lead",
+    "location": "International STEAM competition",
+    "featured": false,
+    "summary": "Building and testing circuits with breadboards, components, soldering and fault diagnosis.",
+    "overview": "I co-led an eight-student circuits and electronics team for an international STEAM competition. Our work included breadboards, component testing, soldering and fault finding. It gave me a practical foundation for the electrical integration and telemetry work I later did on the race car.",
+    "contributions": [
+      "Co-led an eight-student electronics team.",
+      "Built and tested breadboard circuits.",
+      "Used soldering and fault diagnosis to develop and troubleshoot the work."
+    ],
+    "technical": [
+      {
+        "heading": "Engineering foundation",
+        "text": "The project introduced the core habit of testing a circuit, finding the fault and checking a repair. That foundation later carried into my EV wiring and telemetry work."
+      }
+    ],
+    "results": [],
+    "related": [
+      "ev-telemetry",
+      "3d-printing",
+      "sos-crash-detection"
+    ]
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "title": "Competition recognition",
+    "intro": "Awards and placements connected to the electric car and a mentored robotics team.",
+    "items": [
+      {
+        "file": "ev-award-ai-strategy.jpeg",
+        "title": "EVGP · AI race strategy",
+        "detail": "Second place, 2026",
+        "project": "ev-grand-prix"
+      },
+      {
+        "file": "ev-award-promotion.jpeg",
+        "title": "EVGP · Promotion and outreach",
+        "detail": "Third place, 2026",
+        "project": "ev-grand-prix"
+      },
+      {
+        "file": "ev-award-social.jpeg",
+        "title": "EVGP · Social media outreach",
+        "detail": "Third place, 2026",
+        "project": "ev-grand-prix"
+      },
+      {
+        "file": "ev-award-best-photo.jpeg",
+        "title": "EVGP · Best photo",
+        "detail": "First place, 2026",
+        "project": "ev-grand-prix"
+      },
+      {
+        "file": "ev-best-photo-winning-image.png",
+        "title": "EVGP · Winning photo",
+        "detail": "Image awarded Best Photo, 2026",
+        "project": "ev-grand-prix"
+      },
+      {
+        "file": "ev-ai-strategy-podium.jpeg",
+        "title": "EVGP · AI race strategy podium",
+        "detail": "Aahad and teammates in second place, 2026",
+        "project": "ev-grand-prix"
+      },
+      {
+        "file": "vex-create-award.jpeg",
+        "title": "UAE National VEX Create Award",
+        "detail": "Award earned by a team I mentored, 2026",
+        "project": "robotics-mentoring"
+      }
+    ]
+  },
+  {
+    "title": "Programs and placements",
+    "intro": "Certificates documenting participation and completion.",
+    "items": [
+      {
+        "file": "ev-steam-certificate.jpeg",
+        "title": "SABIS STEAM electric car",
+        "detail": "Participation, 2026",
+        "project": "ev-grand-prix"
+      },
+      {
+        "file": "adnoc-certificate-close.jpeg",
+        "title": "ADNOC Energy Bootcamp",
+        "detail": "Completion, 2026",
+        "project": "adnoc-placement"
+      },
+      {
+        "file": "mbzuai-certificate.jpeg",
+        "title": "MBZUAI Hybrid Intelligence",
+        "detail": "Participation, 2026",
+        "project": "mbzuai-bootcamp"
+      },
+      {
+        "file": "ball-kid-letter.jpeg",
+        "title": "Dubai Duty Free Tennis",
+        "detail": "Ball kid training letter, 2025",
+        "project": "tennis-ball-kid"
+      }
+    ]
+  },
+  {
+    "title": "Robotics and making",
+    "intro": "A record of earlier hands-on engineering work.",
+    "items": [
+      {
+        "file": "vex-advanced-club-2024-certificate.jpeg",
+        "title": "Advanced Robotics Club",
+        "detail": "Participation, 2024",
+        "project": "vex-robotics"
+      },
+      {
+        "file": "vex-robotics-advanced-2025-certificate.jpeg",
+        "title": "Robotics Advanced",
+        "detail": "Participation, February 2025",
+        "project": "vex-robotics"
+      },
+      {
+        "file": "vex-advanced-robotics-2025-certificate.jpeg",
+        "title": "Advanced Robotics",
+        "detail": "Participation, May 2025",
+        "project": "vex-robotics"
+      },
+      {
+        "file": "printing-certificate.jpeg",
+        "title": "3D Modelling and Printing",
+        "detail": "Participation, 2023",
+        "project": "3d-printing"
+      },
+      {
+        "file": "printing-club-2023-certificate.jpeg",
+        "title": "3D Printing Club",
+        "detail": "Participation, November 2023",
+        "project": "3d-printing"
+      },
+      {
+        "file": "printing-steam-2024-certificate.jpeg",
+        "title": "SABIS STEAM 3D Printing",
+        "detail": "Participation, 2024",
+        "project": "3d-printing"
+      },
+      {
+        "file": "printing-club-2024-certificate.jpeg",
+        "title": "3D Printing Club",
+        "detail": "Participation, April 2024",
+        "project": "3d-printing"
+      },
+      {
+        "file": "electronics-certificate.jpeg",
+        "title": "SABIS STEAM circuits",
+        "detail": "Participation, 2023",
+        "project": "circuits-electronics"
+      }
+    ]
+  },
+  {
+    "title": "Engineering artifacts",
+    "intro": "Design outputs and physical prototypes that show how the work developed.",
+    "items": [
+      {
+        "file": "ev-power-schematic.png",
+        "title": "EV power architecture",
+        "detail": "System diagram and component path",
+        "project": "ev-electrical-powertrain"
+      },
+      {
+        "file": "telemetry-pcb-render.jpg",
+        "title": "Telemetry board design",
+        "detail": "Finalized design planned for 2027",
+        "project": "ev-telemetry"
+      },
+      {
+        "file": "telemetry-white-enclosure.jpeg",
+        "title": "Telemetry bench development",
+        "detail": "Enclosure and wiring prototype",
+        "project": "ev-telemetry"
+      },
+      {
+        "file": "ev-mesh-three-quarter.png",
+        "title": "Scanned EV geometry",
+        "detail": "Mesh view used for digital modelling",
+        "project": "ev-cad-scanning"
+      },
+      {
+        "file": "ev-body-revision-three-quarter.png",
+        "title": "Revised EV body geometry",
+        "detail": "Edited from the original scan to explore a more streamlined profile",
+        "project": "ev-cad-scanning"
+      },
+      {
+        "file": "ev-cfd-flow.png",
+        "title": "Airflow study",
+        "detail": "Simulation visualization, not a measured race result",
+        "project": "ev-mechanical-testing"
+      }
+    ]
+  }
+]
