@@ -65,4 +65,38 @@
     updateResults();
   }
 
+  const viewer = document.querySelector("[data-image-viewer]");
+  const viewerImage = viewer?.querySelector("[data-image-viewer-image]");
+  const viewerCaption = viewer?.querySelector("[data-image-viewer-caption]");
+  const viewerClose = viewer?.querySelector("[data-image-viewer-close]");
+  let lastImageTrigger = null;
+
+  if (viewer && viewerImage && viewerCaption && viewerClose && typeof viewer.showModal === "function") {
+    document.addEventListener("click", (event) => {
+      const trigger = event.target.closest("[data-image-open]");
+      if (!trigger) return;
+
+      const source = trigger.dataset.imageSrc;
+      if (!source) return;
+      lastImageTrigger = trigger;
+      viewerImage.src = source;
+      viewerImage.alt = trigger.querySelector("img")?.alt || "Portfolio image";
+      viewerCaption.textContent = trigger.dataset.imageCaption || "";
+      viewer.showModal();
+      document.body.classList.add("viewer-open");
+      viewerClose.focus();
+    });
+
+    viewerClose.addEventListener("click", () => viewer.close());
+    viewer.addEventListener("click", (event) => {
+      if (event.target === viewer) viewer.close();
+    });
+    viewer.addEventListener("close", () => {
+      document.body.classList.remove("viewer-open");
+      viewerImage.removeAttribute("src");
+      lastImageTrigger?.focus();
+      lastImageTrigger = null;
+    });
+  }
+
 })();

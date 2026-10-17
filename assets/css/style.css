@@ -252,11 +252,10 @@ a:hover { color: var(--gold); }
 .gallery-group h3 { margin: 0 0 1rem; font: 700 1.3rem/1.2 "Bahnschrift", "Arial Narrow", sans-serif; }
 .media-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .8rem; }
 .media-card { min-width: 0; margin: 0; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
-.media-card > a { display: block; overflow: hidden; }
+.media-image-button { display: block; width: 100%; padding: 0; border: 0; overflow: hidden; background: transparent; cursor: zoom-in; }
 .media-card img, .media-card video { display: block; width: 100%; height: clamp(260px,30vw,380px); object-fit: contain; background: #11161c; }
-.media-card img { transition: transform .25s ease; }
-.media-card > a:hover img { transform: scale(1.025); }
 .media-card-document img { background: #293139; }
+.media-card-award img { height: min(560px,150vw); }
 .media-card figcaption { padding: .85rem 1rem 1.05rem; color: var(--ink-soft); font-size: .79rem; line-height: 1.45; }
 .gallery-more { border: 1px solid var(--line); background: var(--surface); }
 .gallery-more summary { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.2rem 1.4rem; color: var(--ink); cursor: pointer; list-style: none; }
@@ -271,15 +270,24 @@ a:hover { color: var(--gold); }
 .proof-group:nth-of-type(even) { background: #171d23; }
 .proof-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .9rem; }
 .proof-card { display: flex; flex-direction: column; min-width: 0; border: 1px solid var(--line); background: var(--surface); }
-.proof-image { display: grid; place-items: center; height: 260px; overflow: hidden; background: #242b32; }
-.proof-image img { width: 100%; height: 100%; padding: .7rem; object-fit: contain; transition: transform .25s ease; }
-.proof-image:hover img { transform: scale(1.025); }
+.proof-image { display: grid; place-items: center; width: 100%; height: 300px; padding: 0; border: 0; overflow: hidden; background: #242b32; cursor: zoom-in; }
+.proof-image img { width: 100%; height: 100%; padding: .7rem; object-fit: contain; }
+.proof-card-award .proof-image { height: min(560px,150vw); }
 .proof-copy { display: flex; flex: 1; flex-direction: column; padding: 1.15rem 1.25rem 1.3rem; }
 .proof-copy > span { color: var(--gold); font-size: .63rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
 .proof-copy h3 { margin: .5rem 0 .25rem; font: 700 1.42rem/1.13 "Bahnschrift", "Arial Narrow", sans-serif; }
 .proof-copy p { margin: 0 0 1.3rem; color: var(--ink-soft); font-size: .83rem; }
 .proof-copy a { display: inline-flex; align-items: center; gap: .4rem; margin-top: auto; color: var(--gold); font-size: .75rem; font-weight: 800; text-decoration: none; }
 .proof-copy a:hover { color: var(--ink); }
+.image-viewer { position: fixed; inset: 0; width: min(96vw, 1200px); max-width: none; max-height: calc(100dvh - 2rem); margin: auto; padding: 1rem; border: 1px solid var(--line-bright); background: #11161c; color: var(--ink); box-shadow: 0 24px 80px #000a; overflow: auto; }
+.image-viewer::backdrop { background: rgba(5, 8, 12, .88); }
+.image-viewer-close { display: flex; align-items: center; gap: .6rem; margin: 0 0 .7rem auto; padding: .35rem .55rem; border: 0; background: transparent; color: var(--ink); font-size: .85rem; font-weight: 700; }
+.image-viewer-close:hover { color: var(--gold); }
+.image-viewer-close span { font-size: 1.5rem; line-height: 1; }
+.image-viewer figure { margin: 0; }
+.image-viewer img { display: block; width: 100%; max-height: calc(100dvh - 9rem); object-fit: contain; }
+.image-viewer figcaption { max-width: 90ch; margin: .8rem auto .1rem; color: var(--ink-soft); font-size: .82rem; text-align: center; }
+body.viewer-open { overflow: hidden; }
 .proof-video { border-top: 1px solid var(--line); background: #151b20; }
 .proof-video-layout { display: grid; grid-template-columns: .85fr 1.15fr; align-items: center; gap: clamp(2rem,6vw,6rem); }
 .proof-video h2 { max-width: 14ch; margin: 0 0 1rem; font: 700 clamp(2.2rem,4vw,4rem)/1.06 "Bahnschrift", "Arial Narrow", sans-serif; letter-spacing: -.04em; }
@@ -368,7 +376,10 @@ a:hover { color: var(--gold); }
   .gallery-more summary { align-items: flex-start; flex-direction: column; }
   .gallery-more summary::after { position: absolute; right: 1.4rem; }
   .gallery-more summary { position: relative; padding-right: 3.3rem; }
-  .proof-image { height: 235px; }
+  .proof-image { height: 300px; }
+  .proof-card-award .proof-image, .media-card-award img { height: min(560px,150vw); }
+  .image-viewer { width: calc(100vw - 1rem); max-height: calc(100dvh - 1rem); padding: .7rem; }
+  .image-viewer img { max-height: calc(100dvh - 8rem); }
   .contact-layout > div:last-child { align-items: start; flex-direction: column; }
 }
 @media (prefers-reduced-motion: reduce) {

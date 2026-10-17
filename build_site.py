@@ -52,7 +52,7 @@ def page_shell(*, title: str, description: str, body: str, root: str = "", curre
   <meta name="description" content="{e(description)}">
   <title>{e(title)} | {NAME}</title>
   <link rel="icon" type="image/svg+xml" href="{root}assets/favicon.svg">
-  <link rel="stylesheet" href="{root}assets/css/style.css?v=4">
+  <link rel="stylesheet" href="{root}assets/css/style.css?v=5">
   <noscript><style>@media(max-width:760px){{.menu-toggle{{display:none}}.site-nav{{display:flex;position:static;flex-wrap:wrap;width:100%;padding:.5rem 0;border:0;background:transparent}}.header-inner{{flex-wrap:wrap}}}}</style></noscript>
 </head>
 <body>
@@ -69,7 +69,8 @@ def page_shell(*, title: str, description: str, body: str, root: str = "", curre
     <div class="container footer-main"><div><span class="footer-kicker">BUILD / MEASURE / IMPROVE</span><strong>Aahad Rashid</strong><p>Aspiring electrical engineer in Dubai, UAE.</p></div><div class="footer-nav"><a href="{root}projects/index.html">Projects</a><a href="{root}evidence.html">Evidence</a><a href="{root}skills.html">Skills</a><a href="mailto:{EMAIL}">Email</a><a href="{LINKEDIN}" rel="noopener noreferrer">LinkedIn</a></div></div>
     <div class="container footer-bottom"><span>© 2026 Aahad Rashid</span><span>Built as a record of real engineering work.</span></div>
   </footer>
-  <script src="{root}assets/js/site.js?v=4" defer></script>
+  <dialog class="image-viewer" data-image-viewer aria-label="Image viewer"><button class="image-viewer-close" type="button" data-image-viewer-close aria-label="Close image viewer">Close <span aria-hidden="true">×</span></button><figure><img data-image-viewer-image alt=""><figcaption data-image-viewer-caption></figcaption></figure></dialog>
+  <script src="{root}assets/js/site.js?v=5" defer></script>
 </body>
 </html>'''
 
@@ -162,11 +163,13 @@ def render_evidence() -> str:
         cards = []
         for item in group["items"]:
             project = BY_SLUG[item["project"]]
+            proof_class = "proof-card proof-card-award" if item["file"].startswith("ev-award-") else "proof-card"
             cards.append(
-                f'<article class="proof-card"><a class="proof-image" href="assets/media/{e(item["file"])}" '
-                f'target="_blank" rel="noopener noreferrer" aria-label="Open full-size image: {e(item["title"])}">'
+                f'<article class="{proof_class}"><button class="proof-image" type="button" '
+                f'data-image-open data-image-src="assets/media/{e(item["file"])}" '
+                f'data-image-caption="{e(item["title"])} — {e(item["detail"])}" aria-label="Enlarge image: {e(item["title"])}">'
                 f'<img src="assets/media/{e(item["file"])}" alt="{e(item["title"])} — {e(item["detail"])}" '
-                f'loading="lazy" decoding="async"></a><div class="proof-copy"><span>{e(project["category"])}</span>'
+                f'loading="lazy" decoding="async"></button><div class="proof-copy"><span>{e(project["category"])}</span>'
                 f'<h3>{e(item["title"])}</h3><p>{e(item["detail"])}</p>'
                 f'<a href="projects/{e(item["project"])}.html">Read the case study</a></div></article>'
             )
@@ -176,7 +179,7 @@ def render_evidence() -> str:
             f'<p>{e(group["intro"])}</p></div></div><div class="proof-grid">{"".join(cards)}</div></div></section>'
         )
     body = f'''<main id="main-content" tabindex="-1">
-  <header class="page-hero evidence-hero"><div class="container"><p class="eyebrow">THE EVIDENCE</p><h1>Proof behind<br><em>the projects.</em></h1><p>Awards, certificates and engineering artifacts, each connected to the project behind it. Open any image at full size or follow its case study for context.</p></div></header>
+  <header class="page-hero evidence-hero"><div class="container"><p class="eyebrow">THE EVIDENCE</p><h1>Proof behind<br><em>the projects.</em></h1><p>Awards, certificates and engineering artifacts, each connected to the project behind it. Select an image to enlarge it here, or follow its case study for context.</p></div></header>
   <nav class="skills-nav" aria-label="Evidence categories"><div class="container"><span>Jump to</span>{jump}</div></nav>
   {"".join(sections)}
   <section class="proof-video section" aria-labelledby="proof-video-title"><div class="container proof-video-layout"><div><p class="eyebrow">PROJECT IN MOTION</p><h2 id="proof-video-title">Learning Compass, demonstrated.</h2><p>A screen recording of the accessible learning website developed during the MBZUAI Hybrid Intelligence Bootcamp.</p><a class="text-link" href="projects/mbzuai-bootcamp.html">Read the bootcamp case study</a></div><video controls preload="metadata" aria-label="Learning Compass accessible learning website demonstration"><source src="assets/media/mbzuai-learning-compass-demo.mp4" type="video/mp4">Your browser does not support this video.</video></div></section>
@@ -190,9 +193,11 @@ def render_media_item(item: dict) -> str:
     if item["file"].lower().endswith((".mp4", ".webm")):
         visual = f'<video controls preload="metadata" aria-label="{e(item["alt"])}"><source src="{path}">Your browser does not support this video.</video>'
     else:
-        visual = f'<a href="{path}" target="_blank" rel="noopener noreferrer" aria-label="Open full image: {e(item["alt"])}"><img src="{path}" alt="{e(item["alt"])}" loading="lazy" decoding="async"></a>'
+        visual = f'<button class="media-image-button" type="button" data-image-open data-image-src="{path}" data-image-caption="{e(item["caption"])}" aria-label="Enlarge image: {e(item["alt"])}"><img src="{path}" alt="{e(item["alt"])}" loading="lazy" decoding="async"></button>'
     file_lower = item["file"].lower()
     kind = " media-card-document" if any(word in file_lower for word in ("award", "certificate", "schematic", "diagram")) else ""
+    if file_lower.startswith("ev-award-"):
+        kind += " media-card-award"
     return f'<figure class="media-card{kind}">{visual}<figcaption>{e(item["caption"])}</figcaption></figure>'
 
 
@@ -224,7 +229,7 @@ def render_project(project: dict) -> str:
                 groups.append(f'<details class="gallery-group gallery-more"><summary><span>{e(group["title"])}</span><small>{len(group["items"])} more photographs</small></summary><div class="media-grid">{cards}</div></details>')
             else:
                 groups.append(f'<section class="gallery-group" aria-label="{e(group["title"])}"><h3>{e(group["title"])}</h3><div class="media-grid">{cards}</div></section>')
-        evidence = f'<section class="evidence-section" id="evidence" aria-labelledby="evidence-title"><div class="container"><div class="section-head"><div><p class="eyebrow">PROJECT EVIDENCE</p><h2 id="evidence-title">The work, documented.</h2><p>Photographs, diagrams and certificates from this project. Open an image to see it at full size.</p></div></div>{"".join(groups)}</div></section>'
+        evidence = f'<section class="evidence-section" id="evidence" aria-labelledby="evidence-title"><div class="container"><div class="section-head"><div><p class="eyebrow">PROJECT EVIDENCE</p><h2 id="evidence-title">The work, documented.</h2><p>Photographs, diagrams and certificates from this project. Select an image to enlarge it without leaving the page.</p></div></div>{"".join(groups)}</div></section>'
     cover = cover_for(slug, "../", alt=info["coverAlt"] if info else "")
     contributions = "".join(f'<li><span>{i:02d}</span><p>{e(text)}</p></li>' for i, text in enumerate(project["contributions"], 1))
     technical = "".join(f'<article class="technical-note"><h3>{e(item["heading"])}</h3><p>{e(item["text"])}</p></article>' for item in project["technical"])
